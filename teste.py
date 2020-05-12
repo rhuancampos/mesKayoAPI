@@ -6,7 +6,7 @@ import threading
 
 def sendCloud(t):
   headers = {'Content-Type': 'application/json', 'Accept':'application/json'}
-  resposta = requests.post("http://localhost:5000/test", data=json.dumps(t), headers=headers)
+  resposta = requests.post("http://10.0.0.10:5000/test", data=json.dumps(t), headers=headers)
   
 
 
