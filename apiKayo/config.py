@@ -1,4 +1,4 @@
 _CONF = {
- 'host':'http://10.0.0.19',
+ 'host':'http://localhost',
  'port':5050,
  }
